@@ -1,23 +1,32 @@
-import logo from './logo.svg';
+import React from 'react';
 import './App.css';
+import Videobg from './components/Videobg';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+     
+      <nav className="navbar">
+        <h1 className="logo">Anime World</h1>
+        <ul className="nav-links">
+        <li><a href="javascript:void(0)">Home</a></li>
+          <li><a href="javascript:void(0)">Update</a></li>
+          <li><a href="javascript:void(0)">Trend</a></li>
+        </ul>
+      </nav>
+
+      
+      <Videobg/>
+
+     
+      <div className="content">
+        <h2 className='heading'>Welcome to Anime World</h2>
+        <p className='para'>You can watch any kind of anime on this website completely for free.</p>
+        <div className="buttons">
+          <button className="cbtn" >watch</button>
+          <button className="btn">login</button>
+        </div>
+      </div>
     </div>
   );
 }
