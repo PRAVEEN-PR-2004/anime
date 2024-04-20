@@ -9,9 +9,9 @@ function App() {
       <nav className="navbar">
         <h1 className="logo">Anime World</h1>
         <ul className="nav-links">
-        <li><a >Home</a></li>
-          <li><a >Update</a></li>
-          <li><a>Trend</a></li>
+        <li><a href='https://personal-myportfolio.netlify.app/'>Home</a></li>
+          <li><a href='https://www.linkedin.com/in/praveen-p-r-15-09-2004-ttp/'>Update</a></li>
+          <li><a href='https://github.com/PRAVEEN-PR-2004'>Trend</a></li>
         </ul>
       </nav>
 
