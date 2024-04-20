@@ -9,9 +9,9 @@ function App() {
       <nav className="navbar">
         <h1 className="logo">Anime World</h1>
         <ul className="nav-links">
-        <li><a href="javascript:void(0)">Home</a></li>
-          <li><a href="javascript:void(0)">Update</a></li>
-          <li><a href="javascript:void(0)">Trend</a></li>
+        <li><a >Home</a></li>
+          <li><a >Update</a></li>
+          <li><a>Trend</a></li>
         </ul>
       </nav>
 
