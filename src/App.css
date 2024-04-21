@@ -129,4 +129,7 @@ text-shadow: 2px 2px 4px #000000;
   .logo{
     font-size: 15px;
   }
+  .nav-links li {
+    margin-right: 10px;
+  }
 }
